@@ -4,7 +4,7 @@
 - Project: Definition of scaleable machine learning for big data
 - Description: Big data analytics provides scalable solutions for distributed or very large data. For this project, students will have hands-on experience installing Apache Spark, and practicing python libraries, e.g., MLLib, while applying supervised and unsupervised machine learning algorithms to large datasets for data analysis and developing machine learning models.
 
-## Purpose
+## Subject
 how to implement **map** and **reduce** function using Spark
 
 ## Weekly Plan
