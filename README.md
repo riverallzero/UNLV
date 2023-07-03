@@ -1,4 +1,4 @@
-# UNLV-Proj
+# UNLV-Researve
 - In **U**niversity of **N**evada, **L**as **V**egas
 - Period: 2023.06.25 ~ 2023.07.23
 - Project: Definition of scaleable machine learning for big data
