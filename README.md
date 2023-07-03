@@ -22,5 +22,4 @@
 
 ## Book
 [📁 Book [go]](https://github.com/riverallzero/UNLV-proj/tree/main/Book)
-- [Big Data Analytics with Spark(Mohammed Guller)-A Practitioner’s Guide to Using Spark
-for Large Scale Data Analysis](https://github.com/riverallzero/UNLV-proj/blob/main/Book/Big%20Data%20Analytics%20with%20Spark.pdf)
+- [Big Data Analytics with Spark](https://github.com/riverallzero/UNLV-proj/blob/main/Book/Big%20Data%20Analytics%20with%20Spark.pdf)(Mohammed Guller)
