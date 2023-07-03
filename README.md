@@ -10,6 +10,7 @@
 - Fundamental Python skills
 
 ## Weekly Plan
+- Week 1: Intro Machine Learning
 - Week 2: Semina about Spark[[slide]](https://github.com/riverallzero/UNLV-proj/blob/main/Week2(mon)-session.pdf) & choose dataset and subject for project
 
 ## Papers
