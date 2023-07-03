@@ -10,7 +10,7 @@
 - Fundamental Python skills
 
 ## Weekly Plan
-- Week 2: Semina about Spark[[slide]](https://github.com/riverallzero/UNLV-proj/main/Week2(mon)-session.pdf) & choose dataset and subject for project
+- Week 2: Semina about Spark[[slide]](https://github.com/riverallzero/UNLV-proj/blob/main/Week2(mon)-session.pdf) & choose dataset and subject for project
 
 ## Papers
 Session: About Spark & PySpark [[Week2(mon)-session.pdf]](https://github.com/riverallzero/UNLV-proj/blob/main/Week2(mon)-session.pdf)
