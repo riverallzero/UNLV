@@ -14,9 +14,8 @@
 - Week 2: Semina about Spark[[slide]](https://github.com/riverallzero/UNLV-proj/blob/main/Week2(mon)-session.pdf) & choose dataset and subject for project
 
 ## Papers
+[📁 Paper [go]](https://github.com/riverallzero/UNLV-proj/tree/main/Paper)
 - [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)
 - [PySpark : High-performance data processing without learning Scala](https://www.ibm.com/downloads/cas/DVRQZYOE)
 - [MLlib: Machine Learning in Apache Spark](https://www.jmlr.org/papers/volume17/15-237/15-237.pdf)
 - [Scalable Machine Learning Using PySpark](https://ieeexplore.ieee.org/document/9842696)
-- [Scalable machine-learning algorithms for big data analytics: a comprehensive review](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1194)
-  
