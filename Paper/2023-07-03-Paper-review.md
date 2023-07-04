@@ -51,6 +51,8 @@ w.x + b = 1 & w.x + b = -1 are the expression used to define the margin in an SV
 ## Map Reduce
 Is a distributed computing framework for large-scale data processing that splits data into small pieces, called chunks, and stores them on multiple data nodes.
 
+![](https://github.com/riverallzero/UNLV/assets/93754504/5d244a27-0694-45e3-9ee9-37e0c624f64d)
+
 ### Function
 - **Map**: the first step in a MapReduce job, taking the key/value pairs of an input chunk and outputting them as a list of new key/value pairs, meaning that for each input key/value pair, the map function can generate one or more new key/value pairs.
 - **Reduce**: the second step in a MapReduce operation and deals with grouping values that have the same key. It takes as input a key and a list of values for that key, and outputs a list of new values. In other words, the reduce function can take values for the same key and generate one or more new values.
@@ -79,3 +81,9 @@ Is a distributed computing framework for large-scale data processing that splits
   As a result, the reduce function creates a new list of values (value3) as a result of this operation.
   In the example above, we have returned a grouping of cities that fall within the same age range.
   ```
+
+## System Model
+The cloud computing based binary class support vector machine algorithm works as follows. The training set of the algorithm is split into subsets. Each node within a cloud computing system classifies sub dataset locally via SVM algorithm and gets α values (i.e. support vectors (SVs)), and then passes the calculated SVs to global SVs to merge them.
+
+![](https://github.com/riverallzero/UNLV/assets/93754504/b31a2563-958b-41ed-bb81-126a89201571)
+
