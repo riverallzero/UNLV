@@ -38,7 +38,6 @@ SVM is deal with binary classification problems and aim to find a hyperplane tha
 
 ![img](https://github.com/riverallzero/UNLV/assets/93754504/b8a4c954-c95e-47b6-ac95-bd680a46a942)
 
-
 ![](https://github.com/riverallzero/UNLV/assets/93754504/b2599501-02f6-4d61-a9f5-091cea1641c0)
 This inequality takes into account the distance to the hyperplane to classify data point xi into the corresponding class yi. SVM is defined as an optimization problem of finding a hyperplane that satisfies this inequality. The goal is to minimize the percentage of misclassified data points while maximizing the margin.
 - yi: a value indicating the class of the input vector xi, either -1 or 1.
@@ -48,3 +47,35 @@ This inequality takes into account the distance to the hyperplane to classify da
 - b: the bias value of the hyperplane.
 
 w.x + b = 1 & w.x + b = -1 are the expression used to define the margin in an SVM. SVM is an algorithm for finding a hyperplane to classify two classes, and the goal is to find a hyperplane that maximizes the distance between the classes. The wider the graph spacing between w.x + b = 1 and w.x + b = -1, the better the performance of the SVM generally tends to be.
+
+## Map Reduce
+Is a distributed computing framework for large-scale data processing that splits data into small pieces, called chunks, and stores them on multiple data nodes.
+
+### Function
+- **Map**: the first step in a MapReduce job, taking the key/value pairs of an input chunk and outputting them as a list of new key/value pairs, meaning that for each input key/value pair, the map function can generate one or more new key/value pairs.
+- **Reduce**: the second step in a MapReduce operation and deals with grouping values that have the same key. It takes as input a key and a list of values for that key, and outputs a list of new values. In other words, the reduce function can take values for the same key and generate one or more new values.
+  
+### Example
+  ```
+  The data we have is the ages of people and the cities they live in, each represented as a key/value pair.
+  
+  map(key1, value1) => list(key2, value2)
+  
+  In this case, the map function can act as follows.
+  For example, the key (key1) represents the age of a person and the value (value1) represents the city the person lives in.
+  
+  map(25, "Seoul") => list("20s", "Seoul")
+  map(30, "Busan") => list("30s", "Busan")
+  map(35, "Seoul") => list("30s", "Seoul")
+  
+  In the above example, the reduce function accepts values (value2) for the same key (key2).
+  Here, the same key represents an age range ("20s", "30s", etc.) and the reduce function utilizes these values to perform an operation.
+  
+  For example, the reduce function can aggregate cities in the same age range to produce a statistic, or find cities that meet certain conditions.
+  
+  reduce("20s", ["Seoul"]) => list("Seoul")
+  reduce("30s", ["Busan", "Seoul"]) => list("Busan", "Seoul")
+  
+  As a result, the reduce function creates a new list of values (value3) as a result of this operation.
+  In the example above, we have returned a grouping of cities that fall within the same age range.
+  ```
