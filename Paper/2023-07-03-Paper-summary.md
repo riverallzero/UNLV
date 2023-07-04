@@ -1,4 +1,4 @@
-# Paper Review 
+# Paper Summary 
 - Title: A MapReduce based distributed SVM algorithm for binary classification
 - Author: Ferhat Özgür Çatak, Mehmet Erdal Balaban
 
