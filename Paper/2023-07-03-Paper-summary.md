@@ -1,7 +1,7 @@
 # Paper Summary 
 - Title: A MapReduce based distributed SVM algorithm for binary classification
 - Author: Ferhat Özgür Çatak, Mehmet Erdal Balaban
-- Content: compared the single node SVM training algorithm with MapReduce based SVM training algorithm
+- Compared the single node SVM training algorithm with MapReduce based SVM training algorithm
 
 ## Feature selection methods
 - Is a basic approach for reducing feature vector size
