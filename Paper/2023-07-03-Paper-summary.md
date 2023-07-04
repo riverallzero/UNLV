@@ -1,6 +1,7 @@
 # Paper Summary 
 - Title: A MapReduce based distributed SVM algorithm for binary classification
 - Author: Ferhat Özgür Çatak, Mehmet Erdal Balaban
+- Content: compared the single node SVM training algorithm with MapReduce based SVM training algorithm
 
 ## Feature selection methods
 - Is a basic approach for reducing feature vector size
@@ -85,5 +86,22 @@ Is a distributed computing framework for large-scale data processing that splits
 ## System Model
 The cloud computing based binary class support vector machine algorithm works as follows. The training set of the algorithm is split into subsets. Each node within a cloud computing system classifies sub dataset locally via SVM algorithm and gets α values (i.e. support vectors (SVs)), and then passes the calculated SVs to global SVs to merge them.
 
+### Algorithm 1: Map
+Repeat the updating process by adding the global support vector to each class-specific dataset.
+
+### Algorithm 2: Reduce
+For each class, apply the binary SVM algorithm and add the resulting support vectors to the global set of support vectors.
+
 ![](https://github.com/riverallzero/UNLV/assets/93754504/b31a2563-958b-41ed-bb81-126a89201571)
 
+## Comparison
+### Speedup
+Calculation of the speedup is computation time with MapReduce divided by the single node training model computation time. 
+
+![](https://github.com/riverallzero/UNLV/assets/93754504/682f01d7-5aaf-40f2-8c4c-2ae82e8ccb8c) | ![](https://github.com/riverallzero/UNLV/assets/93754504/edae9b35-4141-498f-9ed0-dd7ee74ed223)
+---| ---|
+
+## Result
+![](https://github.com/riverallzero/UNLV/assets/93754504/0f1c03c2-8bf9-457f-ade8-1eaf98949bed)
+
+![](https://github.com/riverallzero/UNLV/assets/93754504/86fde743-7726-46a5-a103-bb29e70bfb78)
