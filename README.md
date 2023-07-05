@@ -9,7 +9,7 @@ How to implement **map** and **reduce** function using Spark in Segmentaion
 
 ### paper summary
 - [A MapReduce based distributed SVM
-algorithm for binary classification](https://github.com/riverallzero/UNLV/blob/main/Paper/2023-07-03-Paper-summary.md)
+algorithm for binary classification](https://github.com/riverallzero/UNLV/blob/main/Paper/2023-07-03-A%20MapReduce%20based%20distributed%20SVM%20algorithm%20for%20binary%20classification.md)
 
 ## Weekly Plan
 - Week 1: Intro Machine Learning
