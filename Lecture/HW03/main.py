@@ -20,7 +20,7 @@ def linear_classification(X, y):
     X_val = np.concatenate((np.ones((X_val.shape[0], 1)), X_val), axis=1)
 
     scores = X_val.dot(weights)
-    predictions = np.where(scores >= 0.5, 6, 5)
+    predictions = np.where(scores >= 5.5, 6, 5)
 
     return y_val, predictions
 
@@ -49,7 +49,7 @@ def linear_classification_kfold(X, y, n):
         X_val = np.concatenate((np.ones((X_val.shape[0], 1)), X_val), axis=1)
 
         scores = X_val.dot(weights)
-        predictions = np.where(scores >= 0.5, 6, 5)
+        predictions = np.where(scores >= 5.5, 6, 5)
 
         fold += 1
 
