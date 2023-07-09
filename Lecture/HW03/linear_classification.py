@@ -7,17 +7,15 @@ from sklearn.metrics import accuracy_score, roc_auc_score
 from sklearn.model_selection import train_test_split, KFold
 
 
-def linear_classification(X, y):
+def linear_classification(X, y, i):
     X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # 절편(intercept)을 포함하기 위해 X_train에 상수 열 추가
-    X_train = np.concatenate((np.ones((X_train.shape[0], 1)), X_train), axis=1)
+    # 절편(intercept)을 포함하기 위해 X_ 상수 열 추가
+    X_train = np.concatenate((np.ones((X_train.shape[0], i)), X_train), axis=1)
+    X_val = np.concatenate((np.ones((X_val.shape[0], i)), X_val), axis=1)
 
     # OLS를 위한 가중치 추정식 계산
     weights = np.linalg.pinv(X_train.T.dot(X_train)).dot(X_train.T).dot(y_train)
-
-    # X_val에 절편 열 추가
-    X_val = np.concatenate((np.ones((X_val.shape[0], 1)), X_val), axis=1)
 
     scores = X_val.dot(weights)
     predictions = np.where(scores >= 5.5, 6, 5)
@@ -81,7 +79,7 @@ def main():
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
 
-    results = linear_classification(X, y)
+    results = linear_classification(X, y, 1)
     acc = accuracy_score(results[0], results[1])
     print(f"Val-ACC = {acc * 100:.2f}%")
     auc = roc_auc_score(results[0], results[1])
