@@ -24,7 +24,7 @@
 
 ## current result
 ### SVM
-- AUC = 60.09%
+- AUC = 0.600
 - Elapsed Time: 18.0 min 55.79 sec
 
 ### SVM with Spark
