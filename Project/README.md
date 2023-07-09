@@ -17,6 +17,8 @@
 | risk_flag(target)   | Defaulted on a loan	                          | str  |
 
 ## label unbalanced
+<img width="30%" alt="스크린샷 2023-07-09 오후 4 48 42" src="https://github.com/riverallzero/UNLV/assets/93754504/73362a1b-5cef-477a-be37-fba8fde91505">
+
 - Stratify -> class_weight (class 1에 가중치 부여)
 - sklearn.utils.class_weight.compute_class_weight
 - sklearn.utils.class_weight.compute_sample_weight
