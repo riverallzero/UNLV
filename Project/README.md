@@ -21,6 +21,12 @@
 - sklearn.utils.class_weight.compute_class_weight
 - sklearn.utils.class_weight.compute_sample_weight
 
+
 ## current result
-- ACC = 60.09%
+### SVM
+- AUC = 60.09%
 - Elapsed Time: 18.0 min 55.79 sec
+
+### SVM with Spark
+- AUC = 0.499
+- Elapsed Time: 0.0 min 10.74 sec
