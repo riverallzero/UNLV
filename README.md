@@ -4,7 +4,16 @@
 - Project: Definition of scaleable machine learning for big data
 - Description: Big data analytics provides scalable solutions for distributed or very large data. For this project, students will have hands-on experience installing Apache Spark, and practicing python libraries, e.g., MLLib, while applying supervised and unsupervised machine learning algorithms to large datasets for data analysis and developing machine learning models.
 
-## GPU
+## JupyterLab
+### terminal setting
+1. <code>conda create -n 가상환경이름 python=파이썬 버전</code>
+2. <code>conda activate 가상환경이름</code>
+3. <code>pip install jupyter notebook</code>, <code>pip install ipykernel</code>
+4. <code>python -m ipykernel install —user —name 가상환경이름 —display-name 가상환경이름</code>
+5. <code>jupyter notebook</code>
+6. Jupyter Notebook: [setting]kernel -> change kernel
+
+### GPU setting
 ```python
 import os
 
