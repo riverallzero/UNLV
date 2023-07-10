@@ -42,14 +42,14 @@ def main():
 
     svm = LinearSVC(labelCol="risk_flag", weightCol="risk_flag", maxIter=100) # default 100
 
-    # 시작 시간 기록
+    # Start: training
     start_time = time.time()
 
     model = svm.fit(train)
 
-    # 종료 시간 기록
+    # End: training
     end_time = time.time()
-    # 학습 시간 계산
+    # Calculate training time
     elapsed_time = end_time - start_time
 
     predictions = model.transform(val)

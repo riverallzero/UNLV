@@ -40,14 +40,14 @@ def main():
 
     clf = svm.SVC()
 
-    # 시작 시간 기록
+    # Start: training
     start_time = time.time()
 
     clf.fit(X_train, y_train, sample_weight=sample_weights)
 
-    # 종료 시간 기록
+    # End: training
     end_time = time.time()
-    # 학습 시간 계산
+    # Calculate training time
     elapsed_time = end_time - start_time
 
     y_pred = clf.predict(X_val)
