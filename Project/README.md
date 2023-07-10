@@ -29,9 +29,9 @@
 
 ## current result
 ### SVM
-- AUC = 0.516
-- Elapsed Time: 1.0 min 47.09 sec
+- AUC = 0.641
+- Elapsed Time: 2.0 min 40.62 sec
 
 ### SVM with Spark
-- AUC = 0.501
-- Elapsed Time: 0.0 min 13.52 sec
+- AUC = 0.503
+- Elapsed Time: 0.0 min 16.63 sec
