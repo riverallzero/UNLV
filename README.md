@@ -8,7 +8,7 @@
 - username: su2023grp7
   
 ### terminal setting
-1.<code>conda init bash</code>
+1. <code>conda init bash</code>
 2. <code>conda create -n dayoung python=3.8</code>
 3. <code>conda activate dayoung</code>
 4. <code>pip install jupyter notebook</code>, <code>pip install ipykernel</code>
