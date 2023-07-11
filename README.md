@@ -8,10 +8,10 @@
 - username: su2023grp7
   
 ### terminal setting
-1. <code>conda create -n 가상환경이름 python=파이썬 버전</code>
-2. <code>conda activate 가상환경이름</code>
+1. <code>conda create -n dayoung python=3.8</code>
+2. <code>conda activate dayoung</code>
 3. <code>pip install jupyter notebook</code>, <code>pip install ipykernel</code>
-4. <code>python -m ipykernel install —user —name 가상환경이름 —display-name 가상환경이름</code>
+4. <code>python -m ipykernel install —user —name dayoung —display-name dayoung</code>
 5. <code>jupyter notebook</code>
 6. Jupyter Notebook: [setting]kernel -> change kernel
 
