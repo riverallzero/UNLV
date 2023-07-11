@@ -8,12 +8,13 @@
 - username: su2023grp7
   
 ### terminal setting
-1. <code>conda create -n dayoung python=3.8</code>
-2. <code>conda activate dayoung</code>
-3. <code>pip install jupyter notebook</code>, <code>pip install ipykernel</code>
-4. <code>python -m ipykernel install —user —name dayoung —display-name dayoung</code>
-5. <code>jupyter notebook</code>
-6. Jupyter Notebook: [setting]kernel -> change kernel
+1.<code>conda init bash</code>
+2. <code>conda create -n dayoung python=3.8</code>
+3. <code>conda activate dayoung</code>
+4. <code>pip install jupyter notebook</code>, <code>pip install ipykernel</code>
+5. <code>python -m ipykernel install —user —name dayoung —display-name dayoung</code>
+6. <code>jupyter notebook</code>
+7. Jupyter Notebook: [setting]kernel -> change kernel
 
 ### GPU setting
 ```python
