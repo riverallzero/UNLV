@@ -15,7 +15,7 @@
 5. <code>python -m ipykernel install --user --name dayoung --display-name "dayoung"</code>
 6. <code>jupyter notebook</code>
 7. Jupyter Notebook: [setting]kernel -> change kernel
-
+- remove virtualenv <code>rm -rf virtualenv_path</code>
 ### GPU setting
 ```python
 import os
