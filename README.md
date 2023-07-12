@@ -9,10 +9,10 @@
   
 ### terminal setting
 1. <code>conda init bash</code>
-2. <code>conda create -n dayoung python=3.8</code>
-3. <code>conda activate dayoung</code>
+2. <code>conda create -n [env_name] python=3.8</code>
+3. <code>conda activate [env_name]</code>
 4. <code>pip install jupyter notebook</code>, <code>pip install ipykernel</code>
-5. <code>python -m ipykernel install --user --name dayoung --display-name "dayoung"</code>
+5. <code>python -m ipykernel install --user --name [env_name] --display-name [env_name]</code>
 6. <code>jupyter notebook</code>
 7. Jupyter Notebook: [setting]kernel -> change kernel
 - remove virtualenv: <code>rm -rf virtualenv_path</code>
@@ -26,7 +26,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="2" #don't use 0 in dione
 ```
 ### background running
 1. <code>byobu -S1</code> (S1, S2 etc.)
-2. <code>conda activate dayoung</code>
+2. <code>conda activate [env_name]</code>
 3. <code>python3 main.py</code>
 
 ## 1. About
