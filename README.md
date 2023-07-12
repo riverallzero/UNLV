@@ -24,6 +24,10 @@ import os
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]="2" #don't use 0 in dione
 ```
+### background running
+1. <code>byobu -S1</code> (S1, S2 etc.)
+2. <code>conda activate dayoung</code>
+3. <code>python3 main.py</code>
 
 ## 1. About
 ### Subject
