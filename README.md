@@ -31,7 +31,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="2" #don't use 0 in dione
 
 ## 1. About
 ### Subject
-How to implement **map** and **reduce** function using Spark in Segmentaion
+How to implement **map** and **reduce** function using Spark
 
 ### Weekly Plan
 - Week 1: Intro Machine Learning
