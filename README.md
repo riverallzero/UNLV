@@ -38,7 +38,7 @@ How to implement **map** and **reduce** function using Spark
 - Week 2: Semina about Spark [[slide]](https://github.com/riverallzero/UNLV-proj/blob/main/Week2(mon)-session.pdf)
 - Week 3: Develop MapReduce with python [[code]](https://github.com/riverallzero/UNLV/blob/main/Project/MapReduce_randomset_compare.ipynb)
 - Week 4: Develop MapReduce with pyspark [[code]](https://github.com/riverallzero/UNLV/blob/main/Project/MapReduce_randomset_compare.ipynb)
-- Final: Write a paper
+- Final: Write a paper [[paper]](https://github.com/riverallzero/UNLV/blob/main/Project/Implement%20MapReduce%20based%20Linear%20Regression%20with%20multiprocessing.pdf)
   
 ### Papers
 [📁 Paper [go]](https://github.com/riverallzero/UNLV-proj/tree/main/Paper)
