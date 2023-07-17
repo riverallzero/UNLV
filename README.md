@@ -36,8 +36,8 @@ How to implement **map** and **reduce** function using Spark
 ### Weekly Plan
 - Week 1: Intro Machine Learning
 - Week 2: Semina about Spark [[slide]](https://github.com/riverallzero/UNLV-proj/blob/main/Week2(mon)-session.pdf)
-- Week 3: Develop MapReduce with python [[code]](https://github.com/riverallzero/UNLV/blob/main/Project/main.py)
-- Week 4: Develop MapReduce with pyspark
+- Week 3: Develop MapReduce with python [[code]](https://github.com/riverallzero/UNLV/blob/main/Project/MapReduce_multiprocessing.py)
+- Week 4: Develop MapReduce with pyspark [[code]](https://github.com/riverallzero/UNLV/blob/main/Project/MapReduce_pyspark.py)
 - Final: Write a paper
   
 ### Papers
