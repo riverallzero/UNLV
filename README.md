@@ -29,7 +29,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="2" #don't use 0 in DIONE
 2. <code>conda activate [env_name]</code>
 3. <code>python3 main.py</code>
 
-## 1. About
+## About
 ### Subject
 How to implement **map** and **reduce** function using Spark
 
@@ -40,11 +40,3 @@ How to implement **map** and **reduce** function using Spark
 - Week 4: Develop MapReduce with pyspark [[code]](https://github.com/riverallzero/UNLV/blob/main/Project/mapreduce_pyspark.py)
 - Final: Write a paper [[paper]](https://github.com/riverallzero/UNLV/blob/main/Project/paper.pdf)
   
-## 2. MapReduce
-### 📑 Python-multiprocessing
-#### What is Multiprocessing?
-
-#### Compare with CPU
-
-### 📑 Pyspark-RDD
-#### What is RDD?
