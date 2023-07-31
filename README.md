@@ -27,7 +27,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="2" #don't use 0 in DIONE
 ### background running
 1. <code>byobu -S1</code> (S1, S2 etc.)
 2. <code>conda activate [env_name]</code>
-3. <code>python3 main.py</code>
+3. <code>python3 main.py &</code>
 
 ## About
 ### Subject
